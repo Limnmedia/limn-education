@@ -1,0 +1,17 @@
+# Local Frappe Bench and runtime state; preserve on disk, do not commit.
+bench/
+
+# Local development environments and dependencies.
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Local configuration and secrets.
+.env
+.env.*
+!.env.example
+*.local
+
+# macOS metadata.
+.DS_Store
